@@ -4,9 +4,6 @@
     font-size: 20px;
     display: inline-block;
 }
-.refrao{
-    color: red;
-}
 #video{
     vertical-align: top;
     /* float: left; */
@@ -20,7 +17,12 @@
 #desc{
     vertical-align: top;
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;
+}
+#pDesc{
+    font-size: 50px;
+    margin: 0%;
+    margin-bottom: 50px;
 }
 #h1Title{
     font-size: 60px; 
@@ -28,5 +30,16 @@
     margin: 5px;
     text-align: center;
     display: inline-flex;
-    
+}
+
+/* classes são utilizadas para mais de um elementos com as mesmas propriedades */
+
+.imgSing{
+    width: 300px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.refrao{
+    color: red;
 }
