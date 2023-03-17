@@ -26,16 +26,16 @@
 }
 #h1Title{
     font-size: 60px; 
-    /* text-align: center;  */
     margin: 5px;
     text-align: center;
     display: inline-flex;
+    /* não quis alinhar, não sei pq */
 }
 
 /* classes são utilizadas para mais de um elementos com as mesmas propriedades */
 
 .imgSing{
-    width: 300px;
+    width: 350px;
     height: auto;
     padding-bottom: 50px;
 }
