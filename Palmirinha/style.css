@@ -1,4 +1,7 @@
 #Requisitos{
     margin: auto;
-    
+    display: inline-block;
+}
+#imgtdl{
+    float: right;
 }
