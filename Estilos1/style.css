@@ -1,0 +1,19 @@
+nav{
+    text-align: center;
+    font-size: 30px;
+    
+}
+a {    
+    margin: 10px 10px 10px 10px;
+    background-color: aqua;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid aqua;
+    text-decoration: none;
+}
+#Slaporrakk{
+    
+    
+    margin: 50px ;
+    border: 1px solid black;
+    text-align: center;
+}

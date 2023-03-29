@@ -1,3 +1,7 @@
-#tdl{
-    text-align: center;
+#Requisitos{
+    margin: auto;
+    display: inline-block;
+}
+#imgtdl{
+    float: right;
 }
