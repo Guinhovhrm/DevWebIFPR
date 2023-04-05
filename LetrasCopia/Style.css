@@ -1,3 +1,8 @@
+* {
+
+    font-family: "Calibri";
+}
+
 #titulo{
     font-size: 20px;
     color: orangered;
@@ -8,7 +13,7 @@
     font-size: 18px;
     color: rgb(187, 187, 0);
     padding-left: 15%;
-    text-shadow: 1px 1px 2px gray;
+    text-shadow: 1px 3px 2px gray;
 }
 #centLetra{
     margin: auto;
