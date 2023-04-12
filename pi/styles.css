@@ -1,3 +1,23 @@
-.centralizar{
-    margin: 5%;
+body{
+    margin-top: 35px;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.centralizartxt{
+    float: left;
+    width: 65%;
+    
+}
+
+.png{
+    opacity: 0.1;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+#divpi{
+    float: left; 
+    margin-left: 100px;
+    
 }
