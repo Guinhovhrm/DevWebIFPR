@@ -1,0 +1,32 @@
+.estado {
+	background-color: #ebf3d2;
+	width: 40%;
+	border: 1px solid #b6d58d;
+}
+
+.cid {
+	background-color: #f9faec;
+	width: 40%;
+	border: 1px solid #b6d58d;
+}
+.regiao {
+	background-color: #dff5b5;
+	text-align: center;
+	width: 20%;
+	padding: 20px;
+	border: 1px solid #b6d58d;
+}
+.titulo{
+    color: white;
+	background-color: #a7c941;
+	border: 1px solid #a7c481;
+	text-align: left;
+}
+#align{
+    margin: auto;
+	width: 90%;
+}
+table{
+    border: 1px solid #9fb97c;
+	width: 100%;
+}
