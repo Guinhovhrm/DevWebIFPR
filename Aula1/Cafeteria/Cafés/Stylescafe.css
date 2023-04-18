@@ -1,0 +1,14 @@
+img{
+    width: 500px;
+    float: left;
+}
+li{
+    font-size: 40px;
+}
+button{
+    background-color: aquamarine;
+    color: black;
+    font-size: 30px;
+    height: 100px;
+    width: 200px;
+}
