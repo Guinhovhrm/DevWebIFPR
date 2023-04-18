@@ -1,0 +1,30 @@
+#table{
+    margin: 30px;
+    border: 2px solid #7c869d;
+}
+h1{
+    text-align: center;
+    color: #252955;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color:  #adcce9;
+}
+#fora{
+	width: 605px;
+	height: 100%;
+    margin: 30px auto;
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px gainsboro;
+    background-color: #f1f0fe;
+	border: 1px solid white;
+}
+.info{
+    color: #4f598c;
+}
+.resp{
+    
+        padding-left: 20%;
+}
