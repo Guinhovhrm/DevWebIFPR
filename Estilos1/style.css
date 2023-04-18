@@ -1,3 +1,7 @@
+body{
+    background-image: url();
+}
+
 nav{
     text-align: center;
     font-size: 30px;
@@ -17,3 +21,13 @@ a {
     border: 1px solid black;
     text-align: center;
 }
+.hv1:hover{
+    background-color: red;
+    transition: padding 0.2s linear;
+}
+
+#divBtn{
+    margin: 20px 0px 0px 0px;
+}
+
+

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#cabeca{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #abeecb;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+#menu{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #cdddff;
+	height: 600px;
+	width: 30%;
+	float: left;
+    
+}
+
+#corpo{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+	background-color: #f1f1f1;
+    height: 600px;
+	width: 70%;
+    float: right;
+    
+}
+
+#roda{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+	background-color: #444444;
+	height: 100px;
+    width: 100%;
+    float: left;
+	text-align: center;
+	color: white;
+}
