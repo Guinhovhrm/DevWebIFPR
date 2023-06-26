@@ -1,18 +1,46 @@
-h1{
-    font-size: 100px;
-    text-align: center;
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: grey;
 }
-#bola{
 
-    margin-left: 50%;
+h1{
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 40vh 20vh 20vh 20vh;
+}
+
+#bola{
+    margin: 5%;
+    padding: 40%;
     background-color: lightblue;
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    width: 30px;
+    height: 30px;
 }
-#imgbola{
+#EssaParada{
     
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    margin: 0px;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-color: #f1ca53;
+    width: 400px;
+
+
+}
+#euImg{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    
+}
+#fds{
+    background: blue;
 }
