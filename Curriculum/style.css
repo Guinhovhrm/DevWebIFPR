@@ -5,25 +5,20 @@ html, body{
     background: grey;
 }
 
-h1{
-    grid-row: 1/2;
-    margin: 0px;
-    font-size: 50px;
-    text-align: center;
-    
-}
+
 #container{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 40vh 20vh 20vh 20vh;
+    grid-template-rows: 30vh 25vh 25vh 20vh;
     grid-template-areas: "ladinho escrever1"
-                         "ladinho escrever2"
-                         "ladinho escrever3"
-                         "ladinho escrever4"
+    "ladinho escrever2"
+    "ladinho escrever3"
+    "ladinho escrever4"
     ;
 }
 
 
+/* -------------------------------------------------------------- */
 #euImg{
     
     margin-left: 13%;
@@ -45,24 +40,56 @@ h1{
     background-color: #f1ca53;
     width: 400px;
     grid-area: ladinho;
-
-}
-#writeParadas{
-    background: blue;
-    grid-area: escrever1;
-}
-#slaPorrakk{
     
-    background: pink;
+}
+
+#EssaParada h1{
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* -------------------------------------------------- */
+
+#writeParadas{
+    grid-area: escrever1;
+    margin: 0px;
+}
+#writeParadas p{
+    margin: 0px 0px 0px 20px;
+    font-size: 50px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+#slaPorrakk{
+
     grid-area: escrever2;
 }
+
+#slaPorrakk p{
+    margin: 0px 0px 0px 20px;
+    font-size: 50px;
+}
+
+/* ----------------------------------------------------------- */
 #MotivoDaMorte{
-    
-    background: greenyellow;
+
     grid-area: escrever3;
 }
+#MotivoDaMorte p{
+    margin: 0px 0px 0px 20px;
+    font-size: 50px;
+
+}
+/* -------------------------------------------------------- */
 #UsarGrid{
     
-    background: red;
     grid-area: escrever4;
+}
+#UsarGrid p{
+    margin: 0px 0px 0px 20px;
+    font-size: 50px;
+
 }
